@@ -1,9 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const accordionItems = document.querySelectorAll('.accordion-item');
 
-
-
-
     accordionItems.forEach(item => {
         const header = item.querySelector('.question');
 
@@ -16,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 // Collapse other accordion items
             accordionItems.forEach(otherItem => {
                 if (otherItem !== item) {
-                    otherItem.querySelector('.accordion-content').style.display = 'none';
+                    otherItem.querySelector('.answer').style.display = 'none';
                     otherItem.querySelector('.accordion-button').src = './assets/images/icon-plus.svg';
                 }
             });

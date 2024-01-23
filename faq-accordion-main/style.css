@@ -12,8 +12,10 @@ main{
     align-items: center;
 }
 .container{
+    margin-top: 100px;
     background-color: hsl(0, 0%, 100%);
     width: 35%;
+    min-width: 350px;
     height: 60%;
     /* container styling */
     border-radius: 4%;
