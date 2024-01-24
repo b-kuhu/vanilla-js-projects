@@ -44,6 +44,7 @@ p{
 }
 .rating > li:hover{
     background-color:hsl(25, 97%, 53%);
+    color: white;
 }
 .submit{
     background-color: hsl(25, 97%, 53%);
