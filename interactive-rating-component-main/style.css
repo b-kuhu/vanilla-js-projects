@@ -19,7 +19,7 @@ main{
 .rating-state img{
     border-radius: 50%;
     padding: 10px;
-    background-color: rgb(82, 80, 80);
+    background-color: hsl(213, 20%, 14%);
 }
 h1{
     color:hsl(0, 0%, 100%) ;
@@ -36,7 +36,7 @@ p{
     padding: 10px;
 }
 .rating > li{
-    background-color: rgb(82, 80, 80);
+    background-color: hsl(213, 20%, 14%);
     font-size: small;
     border-radius: 50%;
     text-align: center;
