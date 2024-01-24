@@ -1,0 +1,78 @@
+body{
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+}
+main{
+    min-height: 100vh;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.container{
+    background-color:hsl(213, 19%, 18%) ;
+    height: auto;
+    width: 25%;
+    min-width: 250px;
+    padding: 30px 30px 15px 30px;
+    border-radius: 4%;
+}
+.rating-state img{
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgb(82, 80, 80);
+}
+h1{
+    color:hsl(0, 0%, 100%) ;
+}
+p{
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+}
+.rating{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    color: hsl(217, 12%, 63%);
+    padding: 10px;
+}
+.rating > li{
+    background-color: rgb(82, 80, 80);
+    font-size: small;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px 15px;
+}
+.rating > li:hover{
+    background-color:hsl(25, 97%, 53%);
+}
+.submit{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    width: 95%;
+    margin: 10px;
+    padding: 12px;
+    border : none;
+    border-radius:25px;
+}
+.submit:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+.rating-state{
+    display: block;
+}
+/* styling for thank you state */
+.thanks-state{
+    text-align: center;
+    display: none;
+
+}
+#rating-message{
+    color: hsl(25, 97%, 53%) ;
+}
+.thanks-state img{
+    background-color: hsl(213, 19%, 18%);
+}
+.thanks-state p:nth-child(4){
+    font-size: 14px;
+}
