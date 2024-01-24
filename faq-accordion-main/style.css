@@ -53,15 +53,12 @@ main{
         background-size: 1200px;
         background-position-x: center;
     }
-    .container{
-        margin-top: 100px;
+    main{
+        height: 100vh;
     }
 }
 @media(min-width:900px){
     body{
         background-size: 100%;
-    }
-    .container{
-        height: 40%;
     }
 }
