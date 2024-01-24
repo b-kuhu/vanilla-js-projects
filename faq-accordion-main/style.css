@@ -14,7 +14,7 @@ main{
 .container{
     background-color: hsl(0, 0%, 100%);
     width: 35%;
-    height: 60%;
+    height: auto;
     min-width: 250px;
     /* container styling */
     border-radius: 4%;
