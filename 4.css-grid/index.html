@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css grid learnings</title>
+    <style>
+        body{
+            background-color: hotpink;
+        }
+        .container{
+            display: grid;
+            /* we use grid to slice and dice into multiple columns and rows
+            and size them acccording to our needs.These are collectively
+            known as tracks.
+            */
+            grid-template-columns: 5rem auto 10rem;
+            grid-template-rows: 50px 100px;
+            gap: 20px;
+        }
+        .item{
+            background-color: yellow;
+            font-weight: bolder;
+            text-align: center;
+            padding: 5px 8px;
+
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+      <div class="item">7</div>
+      <div class="item">8</div>
+      <div class="item">9</div>
+      <div class="item">10</div>
+    </div>
+  </body>
+</html>
