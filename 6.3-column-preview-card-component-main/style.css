@@ -56,19 +56,30 @@ main{
     border-radius: 2rem;
     font-family: var(--ff-lexend-deca);
 }
-.learn-more-btn:hover{
-    background-color: var(--light-grey);
-}
 .sedan-info-btn{
     color: var(--bg-orange);
+}
+.sedan-info-btn:hover{
+    background-color: var(--bg-orange);
+    color: var(--white);
+    border: 2px solid var(--white);
 }
 .suv-info-btn{
     color: var(--bg-dark-cyan);
 }
+.suv-info-btn:hover{
+    background-color: var(--bg-dark-cyan);
+    color: var(--white);
+    border: 2px solid var(--white);
+}
 .luxury-info-btn{
     color: var(--bg-very-dark-cyan);
 }
-
+.luxury-info-btn:hover{
+    background-color: var(--bg-very-dark-cyan);
+    color: var(--white);
+    border: 2px solid var(--white);
+}
 @media (min-width:600px) {
     .container{
         display:flex;
