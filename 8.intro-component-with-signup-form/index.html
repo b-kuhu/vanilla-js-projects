@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Intro component with sign up form</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="text-portion">
+          <h1>Learn to code by watching others</h1>
+          <p>
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+        </div>
+        <div class="form-portion">
+          <button><b>Try it free 7 days </b>then $20/mo. thereafter</button>
+          <form id="form" action="" method="post">
+            <div class="input-control">
+              <input type="text" aria-label="first-name" id="first-name" placeholder="First Name">
+              <div class="error"></div>
+            </div>  
+
+            <div class="input-control">
+              <input type="text"  aria-label="last-name" id="last-name" placeholder="Last Name">
+              <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+              <input type="text" aria-label="email" id="email" placeholder="Email">
+              <div class="error"></div>
+            </div>
+
+            <div class="input-control">
+              <input type="password" name="password" id="password" placeholder="Password">
+              <div class="error"></div>
+            </div> 
+            <button class="submit-btn">CLAIM YOUR FREE TRIAL</button>
+            <p>By clicking the button, you are agreeing to our <span> Terms and Services</span></p>
+          </form>
+        </div>
+      </div>
+    </main>
+   </body>
+   <script src="index.js"></script>
+</html>
