@@ -13,6 +13,8 @@ form.addEventListener('submit',(e)=>{
 // error messages related to the each type of input
 const setError = (element,message) =>{
     const inputControl = element.parentElement;
+    element.style.background = 'url("./images/icon-error.svg") no-repeat right';
+    element.style.backgroundOrigin = 'content-box';
     const errormsg = inputControl.querySelector('.error');
     errormsg.innerHTML = message;
     inputControl.classList.add('error');
@@ -22,6 +24,7 @@ const setError = (element,message) =>{
 // when the input is validated
 const setSuccess = element =>{
     const inputControl = element.parentElement;
+    element.style.background = 'none';
     const errorDisplay = inputControl.querySelector('.error');
     errorDisplay.innerHTML = '';
     inputControl.classList.add('success');
@@ -77,3 +80,4 @@ const validateInputs = () =>{
         setSuccess(password);
     }
 }
+

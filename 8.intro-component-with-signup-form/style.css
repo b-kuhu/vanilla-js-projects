@@ -40,9 +40,10 @@ form{
 }
 .input-control input{
     width: 90%;
-    border-radius: 4%;
-    border: 2px solid lightgrey;
-    padding: 15px;
+    border: 1px solid lightgrey;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-weight: bold;
 }
 input:hover{
     border: 2px solid hsl(246, 25%, 77%);
@@ -55,7 +56,10 @@ input:hover{
     border-color: #ff3860;
 }
 .error{
-    color: #ff3860;;
+    color: #ff3860;
+    font-size: 0.65rem;
+    font-weight: bold;
+    text-align: end;
 }
 .submit-btn{
     margin: 0;
@@ -70,4 +74,11 @@ form p{
 }
 span{
     color: hsl(0, 100%, 74%) ;
+}
+
+@media (max-width: 600px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
 }
