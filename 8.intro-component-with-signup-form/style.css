@@ -8,24 +8,27 @@ body{
     display: flex;
     justify-content: center;
     align-items: center ;
+    column-gap: 4rem;
 }
 .text-portion{
     color: white;
-    padding: 0px 30px 0px 50px ;
-    width: 40%;
+    width: 35%;
 }
 .text-portion h1{
-    font-size: 40px;
+    font-size: 3em;
+}
+.text-portion p{
+    font-size: 1rem;
 }
 .form-portion{
     width: 35%;
 }
 button{
-    background-color:  hsl(249, 10%, 26%) ;
+    background-color:  hsl(249, 10%, 26%)  ;
     color: white;
     border-radius: 10px;
     border: none;
-    padding: 15px;
+    padding: 1rem;
     margin-bottom: 20px;
     width: 100%;
 }
@@ -35,8 +38,8 @@ form{
     height: auto;
     display: flex;
     flex-direction: column;
-    row-gap: 15px;
-    padding: 20px 20px 0px 20px ;
+    row-gap: 1rem;
+    padding: 30px 20px 0px 20px ;
 }
 .input-control input{
     width: 90%;
@@ -57,8 +60,8 @@ input:hover{
 }
 .error{
     color: #ff3860;
-    font-size: 0.65rem;
-    font-weight: bold;
+    margin-top: 0.35rem;
+    font-size: 0.75rem;
     text-align: end;
 }
 .submit-btn{
@@ -68,8 +71,7 @@ input:hover{
     border-radius: 10px;
 }
 form p{
-    font-size: 9px;
-    margin: 10px;
+    font-size: 0.5rem;
     text-align: center;
 }
 span{
@@ -80,5 +82,17 @@ span{
     .container{
         display: flex;
         flex-direction: column;
+        row-gap: 2rem;
+    }
+    .form-portion{
+        width: 90%;
+    }
+    .text-portion{
+        width: 80%;
+        font-size: 0.88rem;
+        text-align: center;
+    }
+    .text-portion h1{
+        font-size: 2rem;
     }
 }
